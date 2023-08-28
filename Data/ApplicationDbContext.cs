@@ -1,24 +1,16 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using TaskManagementApp.Models;
 
-public class ApplicationDbContext : DbContext
-{
-    public DbSet<Task> Tasks { get; set; }
-    public DbSet<Project> Projects { get; set; }
+namespace TaskManagementApp.Data {
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        if (!optionsBuilder.IsConfigured)
-        {
-            // Configuring the database 
-            optionsBuilder.UseSqlServer("Server=localhost;Database=Assessement;User ID=SA;Password=JidKim7804;Encrypt=False;TrustServerCertificate=True");
+    public class ApplicationDbContext : DbContext {
 
+          protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder){
+            optionBuilder.UseSqlServer("Server=localhost; Database=TaskManagement; User id=SA; Password=JidKim7804; Encrypt=True; TrustServerCertificate=True");
         }
-    }
-
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-        : base(options)
-    {
+        public DbSet<User> Users {get; set; }
+        public DbSet<Tasker> Tasks {get; set; }
+        public DbSet<Project> Projects {get; set; }
     }
 }
-
