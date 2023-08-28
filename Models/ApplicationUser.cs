@@ -1,2 +1,4 @@
-public class ApplicationUser : IdentifyUser
+using Microsoft.AspNetCore.Identity;
+
+public class ApplicationUser : IdentityUser
 {}
