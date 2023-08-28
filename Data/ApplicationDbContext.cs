@@ -11,7 +11,8 @@ public class ApplicationDbContext : DbContext
         if (!optionsBuilder.IsConfigured)
         {
             // Configuring the database 
-            optionsBuilder.UseSqlServer("Server=localhost; Database=Assessement; User id=SA; Password=JidKim7804; Encrypt=True; TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Server=localhost;Database=Assessement;User ID=SA;Password=JidKim7804;Encrypt=False;TrustServerCertificate=True");
+
         }
     }
 
