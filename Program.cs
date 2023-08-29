@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using TaskManagementApp.Data;
+using TaskManagementSystem.Controller;
+
+TaskManagerContext context = new TaskManagerContext();
+
+AuthenticationController userAuth = new AuthenticationController();
+userAuth.Init();
