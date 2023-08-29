@@ -3,6 +3,7 @@ using TaskManagementApp.Services;
 using System;
 using System.Collections.Generic;
 
+namespace TaskManagementApp.ProjectController{
 public class ProjectController
 {
     private readonly ProjectService _projectService;
@@ -130,4 +131,5 @@ public class ProjectController
             Console.WriteLine("No projects found.");
         }
     }
+}
 }
