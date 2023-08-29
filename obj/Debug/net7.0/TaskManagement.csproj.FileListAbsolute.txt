@@ -272,3 +272,11 @@
 /home/jidraf/TaskManagement/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll
 /home/jidraf/TaskManagement/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /home/jidraf/TaskManagement/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+C:\Users\Admin\source\repos\TaskManagement\obj\Debug\net7.0\TaskManagement.dll
+C:\Users\Admin\source\repos\TaskManagement\obj\Debug\net7.0\refint\TaskManagement.dll
+C:\Users\Admin\source\repos\TaskManagement\obj\Debug\net7.0\TaskManagement.pdb
+C:\Users\Admin\source\repos\TaskManagement\obj\Debug\net7.0\TaskManagement.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\TaskManagement\obj\Debug\net7.0\TaskManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\TaskManagement\obj\Debug\net7.0\TaskManagement.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\TaskManagement\obj\Debug\net7.0\TaskManagement.AssemblyInfo.cs
+C:\Users\Admin\source\repos\TaskManagement\obj\Debug\net7.0\TaskManagement.csproj.CoreCompileInputs.cache
