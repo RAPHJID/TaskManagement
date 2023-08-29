@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using TaskManagementApp.Models;
 using TaskManagementApp.Services;
 
+
+namespace TaskManagementApp.UserController {
 public class UserController
 {
     private readonly UserService _userService;
@@ -51,7 +53,7 @@ public class UserController
         Console.Write("Enter password: ");
         var password = Console.ReadLine();
 
-        // Implement your authentication logic here.
+        // auth here late
         // You can check if the username and password match a user in the database.
         // Return true if login is successful, otherwise false.
         var user = _userService.GetUserByUsernameAndPassword(username, password).Result;
@@ -104,4 +106,5 @@ public class UserController
             Console.WriteLine("Task not found.");
         }
     }
+}
 }

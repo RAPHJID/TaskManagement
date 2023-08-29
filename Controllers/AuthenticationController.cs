@@ -2,6 +2,7 @@
 using TaskManagementApp.Models;
 using TaskManagementApp.Services;
 
+namespace TaskManagementApp.AuthenticationController{
 public class AuthenticationController
 {
     private readonly UserService _userService;
@@ -56,4 +57,5 @@ public class AuthenticationController
             return false;
         }
     }
+}
 }

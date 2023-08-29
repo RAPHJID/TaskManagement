@@ -2,6 +2,7 @@
 using TaskManagementApp.Models;
 using TaskManagementApp.Services;
 
+namespace TaskManagementApp.AdminController{
 public class AdminController
 {
     private readonly ProjectService _projectService;
@@ -90,4 +91,5 @@ public class AdminController
             Console.WriteLine($"Failed to delete project: {ex.Message}");
         }
     }
+}
 }
